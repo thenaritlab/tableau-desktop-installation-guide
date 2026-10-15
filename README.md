@@ -25,6 +25,7 @@
 | ขั้นตอน | หัวข้อ |
 |:---:|---|
 | 0️⃣ | [สิ่งที่ต้องเตรียม](#0️⃣-สิ่งที่ต้องเตรียม) |
+| 💻 | [สเปกเครื่องที่แนะนำ (Notebook Specification)](#-สเปกเครื่องที่แนะนำ-notebook-specification) |
 | 1️⃣ | [ดาวน์โหลดตัวติดตั้ง](#1️⃣-ดาวน์โหลดตัวติดตั้ง) |
 | 2️⃣ | [ติดตั้ง Tableau Desktop](#2️⃣-ติดตั้ง-tableau-desktop) |
 | 3️⃣ | [ลงทะเบียนผู้ใช้ (Registration)](#3️⃣-ลงทะเบียนผู้ใช้-registration) |
@@ -59,6 +60,40 @@ flowchart LR
 | 🔑 สิทธิ์ผู้ดูแลเครื่อง | ต้องมีสิทธิ์ Administrator เพื่อติดตั้งโปรแกรม |
 | 📧 อีเมลที่ใช้งานได้ | ใช้สร้าง Tableau Account และรับลิงก์ยืนยัน |
 | 🌐 อินเทอร์เน็ต | ใช้ทั้งตอนดาวน์โหลดและตอน Activate |
+
+### 💻 สเปกเครื่องที่แนะนำ (Notebook Specification)
+
+#### 🪟 Windows
+
+| รายการ | ขั้นต่ำ (Minimum) | แนะนำ (Recommended) |
+|---|---|---|
+| ระบบปฏิบัติการ | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| CPU | Intel Core i3 / AMD Ryzen 3 (Dual Core) | Intel Core i7 / AMD Ryzen 7 (Quad Core) ขึ้นไป |
+| RAM | 4 GB | 16 GB ขึ้นไป |
+| พื้นที่ว่างในดิสก์ | 2 GB (HDD) | 2 GB ขึ้นไป (SSD) |
+| ชุดคำสั่ง CPU | ต้องรองรับ SSE4.2 และ POPCNT | ต้องรองรับ SSE4.2 และ POPCNT |
+
+#### 🍎 macOS
+
+| รายการ | ขั้นต่ำ (Minimum) | แนะนำ (Recommended) |
+|---|---|---|
+| ระบบปฏิบัติการ | macOS Ventura | macOS Sonoma / Sequoia / Tahoe *(Tahoe รองรับตั้งแต่ Tableau 2026.1 ขึ้นไป)* |
+| CPU | Intel Core i3 (Dual Core) หรือ Apple Silicon | Apple Silicon (M-series) หรือ Intel Core i7 (Quad Core) |
+| RAM | 4 GB | 16 GB ขึ้นไป |
+| พื้นที่ว่างในดิสก์ | 2 GB (HDD) | 2 GB ขึ้นไป (SSD) |
+
+> [!TIP]
+> **เช็กสเปกเครื่องตัวเอง**
+> - **Windows:** กด `Windows + Pause/Break` หรือไปที่ **Settings ▸ System ▸ About**
+> - **macOS:** คลิกเมนู  ▸ **About This Mac**
+>
+> แนะนำ **RAM 16 GB และ SSD** เพราะ Tableau ประมวลผลข้อมูลในหน่วยความจำ ยิ่งข้อมูลใหญ่ ยิ่งต้องการ RAM มาก
+
+> [!NOTE]
+> - Connector บางตัวใช้ได้เฉพาะ Windows เช่น Microsoft Access และ SAP บางตัว และบางตัวยังไม่รองรับ Apple Silicon ถ้าต้องเชื่อมต่อฐานข้อมูลเฉพาะทาง ควรตรวจสอบก่อนเลือกเครื่อง
+> - รองรับการติดตั้งบน Virtual Machine (Citrix, Hyper-V, VMware, Parallels) โดยต้องปิด **Processor Compatibility mode**
+>
+> อ้างอิง: [Tableau Technical Specifications](https://www.tableau.com/products/techspecs)
 
 ---
 
@@ -227,6 +262,7 @@ flowchart LR
 
 - ⬇️ [ดาวน์โหลด Tableau Desktop](https://www.tableau.com/products/desktop/download)
 - 📦 [Tableau Desktop ทุกเวอร์ชัน (Release Notes)](https://www.tableau.com/support/releases)
+- 💻 [Tableau Technical Specifications (สเปกเครื่อง)](https://www.tableau.com/products/techspecs)
 - 🔑 [Tableau ID / Reset Password](https://id.tableau.com/resetPassword)
 
 ---

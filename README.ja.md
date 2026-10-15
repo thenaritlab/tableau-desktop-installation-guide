@@ -25,6 +25,7 @@
 | ステップ | 内容 |
 |:---:|---|
 | 0️⃣ | [事前準備](#0️⃣-事前準備) |
+| 💻 | [推奨 PC スペック (Notebook Specification)](#-推奨-pc-スペック-notebook-specification) |
 | 1️⃣ | [インストーラーのダウンロード](#1️⃣-インストーラーのダウンロード) |
 | 2️⃣ | [Tableau Desktop のインストール](#2️⃣-tableau-desktop-のインストール) |
 | 3️⃣ | [ユーザー登録 (Registration)](#3️⃣-ユーザー登録-registration) |
@@ -59,6 +60,40 @@ flowchart LR
 | 🔑 管理者権限 | ソフトウェアのインストールには Administrator 権限が必要です |
 | 📧 有効なメールアドレス | Tableau アカウントの作成と確認リンクの受信に使用します |
 | 🌐 インターネット接続 | ダウンロード時とアクティベーション時に必要です |
+
+### 💻 推奨 PC スペック (Notebook Specification)
+
+#### 🪟 Windows
+
+| 項目 | 最小要件 (Minimum) | 推奨 (Recommended) |
+|---|---|---|
+| OS | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| CPU | Intel Core i3 / AMD Ryzen 3 (Dual Core) | Intel Core i7 / AMD Ryzen 7 (Quad Core) 以上 |
+| メモリ (RAM) | 4 GB | 16 GB 以上 |
+| ディスク空き容量 | 2 GB (HDD) | 2 GB 以上 (SSD) |
+| CPU 命令セット | SSE4.2 および POPCNT に対応していること | SSE4.2 および POPCNT に対応していること |
+
+#### 🍎 macOS
+
+| 項目 | 最小要件 (Minimum) | 推奨 (Recommended) |
+|---|---|---|
+| OS | macOS Ventura | macOS Sonoma / Sequoia / Tahoe *（Tahoe は Tableau 2026.1 以降で対応）* |
+| CPU | Intel Core i3 (Dual Core) または Apple Silicon | Apple Silicon (M シリーズ) または Intel Core i7 (Quad Core) |
+| メモリ (RAM) | 4 GB | 16 GB 以上 |
+| ディスク空き容量 | 2 GB (HDD) | 2 GB 以上 (SSD) |
+
+> [!TIP]
+> **お使いの PC のスペック確認方法**
+> - **Windows:** `Windows + Pause/Break` キーを押すか、**設定 ▸ システム ▸ バージョン情報** を開きます
+> - **macOS:**  メニュー ▸ **この Mac について** をクリックします
+>
+> Tableau はデータをメモリ上で処理するため、**16 GB の RAM と SSD** を推奨します。データ量が多いほど多くのメモリが必要になります。
+
+> [!NOTE]
+> - 一部のコネクタは Windows 専用です（Microsoft Access や一部の SAP コネクタなど）。また、Apple Silicon では未対応のコネクタもあります。特定のデータベースに接続する場合は、PC を選ぶ前にご確認ください。
+> - 仮想環境（Citrix、Hyper-V、VMware、Parallels）へのインストールにも対応しています。その際は **Processor Compatibility mode** を無効にしてください。
+>
+> 参考：[Tableau Technical Specifications](https://www.tableau.com/products/techspecs)
 
 ---
 
@@ -227,6 +262,7 @@ flowchart LR
 
 - ⬇️ [Tableau Desktop のダウンロード](https://www.tableau.com/products/desktop/download)
 - 📦 [Tableau Desktop 全バージョン（Release Notes）](https://www.tableau.com/support/releases)
+- 💻 [Tableau Technical Specifications（動作環境）](https://www.tableau.com/products/techspecs)
 - 🔑 [Tableau ID / パスワード再設定](https://id.tableau.com/resetPassword)
 
 ---

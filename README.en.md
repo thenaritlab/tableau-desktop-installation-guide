@@ -23,6 +23,7 @@
 | Step | Topic |
 |:---:|---|
 | 0️⃣ | [What You Need](#0️⃣-what-you-need) |
+| 💻 | [Notebook Specification](#-notebook-specification) |
 | 1️⃣ | [Download the Installer](#1️⃣-download-the-installer) |
 | 2️⃣ | [Install Tableau Desktop](#2️⃣-install-tableau-desktop) |
 | 3️⃣ | [User Registration](#3️⃣-user-registration) |
@@ -57,6 +58,40 @@ flowchart LR
 | 🔑 Admin rights | Administrator privileges are required to install the software |
 | 📧 Valid email address | Used to create your Tableau Account and receive the verification link |
 | 🌐 Internet connection | Required for both download and activation |
+
+### 💻 Notebook Specification
+
+#### 🪟 Windows
+
+| Item | Minimum | Recommended |
+|---|---|---|
+| Operating system | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| CPU | Intel Core i3 / AMD Ryzen 3 (Dual Core) | Intel Core i7 / AMD Ryzen 7 (Quad Core) or better |
+| RAM | 4 GB | 16 GB or more |
+| Available disk space | 2 GB (HDD) | 2 GB or more (SSD) |
+| CPU instruction set | Must support SSE4.2 and POPCNT | Must support SSE4.2 and POPCNT |
+
+#### 🍎 macOS
+
+| Item | Minimum | Recommended |
+|---|---|---|
+| Operating system | macOS Ventura | macOS Sonoma / Sequoia / Tahoe *(Tahoe supported from Tableau 2026.1)* |
+| CPU | Intel Core i3 (Dual Core) or Apple Silicon | Apple Silicon (M-series) or Intel Core i7 (Quad Core) |
+| RAM | 4 GB | 16 GB or more |
+| Available disk space | 2 GB (HDD) | 2 GB or more (SSD) |
+
+> [!TIP]
+> **Check your computer's specs**
+> - **Windows:** Press `Windows + Pause/Break` or go to **Settings ▸ System ▸ About**
+> - **macOS:** Click the  menu ▸ **About This Mac**
+>
+> **16 GB RAM and an SSD** are recommended because Tableau processes data in memory — the larger your data, the more RAM you need.
+
+> [!NOTE]
+> - Some connectors are Windows-only (e.g. Microsoft Access and some SAP connectors), and some are not yet available on Apple Silicon. If you need a specialized database connection, check before choosing a computer.
+> - Installation on virtual machines (Citrix, Hyper-V, VMware, Parallels) is supported, with **Processor Compatibility mode** disabled.
+>
+> Reference: [Tableau Technical Specifications](https://www.tableau.com/products/techspecs)
 
 ---
 
@@ -225,6 +260,7 @@ Once the account is created, a message confirms that a verification email has be
 
 - ⬇️ [Download Tableau Desktop](https://www.tableau.com/products/desktop/download)
 - 📦 [All Tableau Desktop Versions (Release Notes)](https://www.tableau.com/support/releases)
+- 💻 [Tableau Technical Specifications](https://www.tableau.com/products/techspecs)
 - 🔑 [Tableau ID / Reset Password](https://id.tableau.com/resetPassword)
 
 ---
