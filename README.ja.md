@@ -1,12 +1,12 @@
 # 📊 Tableau Desktop インストールガイド
 
-🌐 **ภาษา / Language / 言語:** [🇹🇭 ไทย](README.md) | [🇺🇸 English](README.en.md) | 🇯🇵 **日本語**
+🌐 **Language:** [TH ไทย](README.md) | [US English](README.en.md) | **JP 日本語**
 
 > Tableau Desktop のダウンロード、インストール、メールアドレスでの Tableau アカウント作成、アクティベーションまでを行い、ご自身のパソコンでデータ分析を始めましょう。
 
 ![Tableau](https://img.shields.io/badge/Tableau-Desktop%202026.2-E97627?logo=tableau&logoColor=white)
 ![OS](https://img.shields.io/badge/OS-Windows%20%7C%20macOS-0078D6)
-![Time](https://img.shields.io/badge/%E6%89%80%E8%A6%81%E6%99%82%E9%96%93-%E7%B4%8415%E5%88%86-6A1B9A)
+![Time](https://img.shields.io/badge/Time-~15%20min-6A1B9A)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-15%20Oct%202026-1565C0)
 
 🗓️ **最終更新日:** 2026年10月15日

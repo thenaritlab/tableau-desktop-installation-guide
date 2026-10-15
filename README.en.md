@@ -1,6 +1,6 @@
 # 📊 Tableau Desktop Installation and Getting Started Guide
 
-🌐 **ภาษา / Language / 言語:** [🇹🇭 ไทย](README.md) | 🇺🇸 **English** | [🇯🇵 日本語](README.ja.md)
+🌐 **Language:** [TH ไทย](README.md) | **US English** | [JP 日本語](README.ja.md)
 
 > Download, install, create a Tableau Account with your email, and activate Tableau Desktop to start analyzing data on your own computer.
 
