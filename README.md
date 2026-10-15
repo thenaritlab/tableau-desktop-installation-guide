@@ -32,7 +32,6 @@
 | 5️⃣ | [สร้าง Tableau Account ด้วยอีเมล](#5️⃣-สร้าง-tableau-account-ด้วยอีเมล) |
 | 6️⃣ | [ยืนยันอีเมล](#6️⃣-ยืนยันอีเมล) |
 | 7️⃣ | [Sign In และ Activate สำเร็จ](#7️⃣-sign-in-และ-activate-สำเร็จ) |
-| 🚀 | [ขั้นต่อไป: แชร์และ Publish Dashboard](#-ขั้นต่อไป-แชร์และ-publish-dashboard) |
 | 🛠️ | [แก้ปัญหาที่พบบ่อย](#️-แก้ปัญหาที่พบบ่อย) |
 
 ---
@@ -211,29 +210,6 @@ flowchart LR
 
 ---
 
-## 🚀 ขั้นต่อไป: แชร์และ Publish Dashboard
-
-เมื่อสร้าง Dashboard เสร็จแล้วและต้องการ **แชร์ให้ทีม** หรือ **Publish ขึ้น Tableau Cloud / Tableau Server** เพื่อให้ผู้บริหารและผู้ใช้งานคนอื่นดูผ่านเว็บเบราว์เซอร์ได้ จำเป็นต้องใช้ **Tableau Creator License**
-
-| สิ่งที่ทำได้เพิ่มเมื่อมี Creator License | |
-|---|---|
-| ☁️ Publish Dashboard ขึ้น Tableau Cloud / Tableau Server | ✅ |
-| 🔗 เชื่อมต่อ Published Data Source กลางขององค์กร | ✅ |
-| 📦 แชร์ Packaged Workbook (.twbx) | ✅ |
-| 🔄 ตั้งเวลา Refresh ข้อมูลอัตโนมัติ (Extract Refresh) | ✅ |
-| 👥 กำหนดสิทธิ์ผู้ดู (Viewer / Explorer) | ✅ |
-
-เมื่อได้รับ License แล้ว **ไม่ต้องติดตั้งใหม่** ไปที่เมนู **Help ▸ Manage Product Keys...** แล้วใส่ Product Key ได้เลย
-
-![เมนู Help > Manage Product Keys](images/14-help-manage-product-keys.png)
-
-> [!TIP]
-> สนใจ License หรือต้องการคำแนะนำในการวางระบบ ติดต่อ **Tableau Account Manager** หรือพาร์ทเนอร์ที่ดูแลองค์กรของคุณ
->
-> อ้างอิง: [Tableau Desktop Feature Comparison](https://help.tableau.com/current/pro/desktop/en-us/desktop_comparison.htm)
-
----
-
 ## 🛠️ แก้ปัญหาที่พบบ่อย
 
 | ปัญหา | วิธีแก้ |
@@ -251,7 +227,6 @@ flowchart LR
 
 - ⬇️ [ดาวน์โหลด Tableau Desktop](https://www.tableau.com/products/desktop/download)
 - 📦 [Tableau Desktop ทุกเวอร์ชัน (Release Notes)](https://www.tableau.com/support/releases)
-- 📋 [Tableau Desktop Feature Comparison](https://help.tableau.com/current/pro/desktop/en-us/desktop_comparison.htm)
 - 🔑 [Tableau ID / Reset Password](https://id.tableau.com/resetPassword)
 
 ---

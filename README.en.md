@@ -30,7 +30,6 @@
 | 5️⃣ | [Create a Tableau Account with Your Email](#5️⃣-create-a-tableau-account-with-your-email) |
 | 6️⃣ | [Verify Your Email](#6️⃣-verify-your-email) |
 | 7️⃣ | [Sign In and Complete Activation](#7️⃣-sign-in-and-complete-activation) |
-| 🚀 | [Next Step: Share and Publish Dashboards](#-next-step-share-and-publish-dashboards) |
 | 🛠️ | [Troubleshooting](#️-troubleshooting) |
 
 ---
@@ -209,29 +208,6 @@ Once the account is created, a message confirms that a verification email has be
 
 ---
 
-## 🚀 Next Step: Share and Publish Dashboards
-
-Once your dashboard is ready and you want to **share it with your team** or **publish it to Tableau Cloud / Tableau Server** so executives and other users can view it in a web browser, you will need a **Tableau Creator License**.
-
-| What you gain with a Creator License | |
-|---|---|
-| ☁️ Publish dashboards to Tableau Cloud / Tableau Server | ✅ |
-| 🔗 Connect to your organization's shared Published Data Sources | ✅ |
-| 📦 Share Packaged Workbooks (.twbx) | ✅ |
-| 🔄 Schedule automatic data refreshes (Extract Refresh) | ✅ |
-| 👥 Manage viewer permissions (Viewer / Explorer) | ✅ |
-
-Once you have a license, **there is no need to reinstall**. Go to **Help ▸ Manage Product Keys...** and enter your Product Key.
-
-![Help > Manage Product Keys menu](images/14-help-manage-product-keys.png)
-
-> [!TIP]
-> For licensing or deployment advice, contact your **Tableau Account Manager** or your organization's Tableau partner.
->
-> Reference: [Tableau Desktop Feature Comparison](https://help.tableau.com/current/pro/desktop/en-us/desktop_comparison.htm)
-
----
-
 ## 🛠️ Troubleshooting
 
 | Problem | Solution |
@@ -249,7 +225,6 @@ Once you have a license, **there is no need to reinstall**. Go to **Help ▸ Man
 
 - ⬇️ [Download Tableau Desktop](https://www.tableau.com/products/desktop/download)
 - 📦 [All Tableau Desktop Versions (Release Notes)](https://www.tableau.com/support/releases)
-- 📋 [Tableau Desktop Feature Comparison](https://help.tableau.com/current/pro/desktop/en-us/desktop_comparison.htm)
 - 🔑 [Tableau ID / Reset Password](https://id.tableau.com/resetPassword)
 
 ---

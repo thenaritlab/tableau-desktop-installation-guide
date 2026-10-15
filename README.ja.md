@@ -32,7 +32,6 @@
 | 5️⃣ | [メールで Tableau アカウントを作成](#5️⃣-メールで-tableau-アカウントを作成) |
 | 6️⃣ | [メールアドレスの確認](#6️⃣-メールアドレスの確認) |
 | 7️⃣ | [サインインとアクティベーション完了](#7️⃣-サインインとアクティベーション完了) |
-| 🚀 | [次のステップ ダッシュボードの共有と公開](#-次のステップ-ダッシュボードの共有と公開) |
 | 🛠️ | [よくある問題と対処法](#️-よくある問題と対処法) |
 
 ---
@@ -211,29 +210,6 @@ flowchart LR
 
 ---
 
-## 🚀 次のステップ ダッシュボードの共有と公開
-
-作成したダッシュボードを **チームと共有** したり、経営層や他のユーザーが Web ブラウザで閲覧できるよう **Tableau Cloud / Tableau Server に公開（Publish）** したりするには、**Tableau Creator ライセンス** が必要です。
-
-| Creator ライセンスで追加される機能 | |
-|---|---|
-| ☁️ Tableau Cloud / Tableau Server へのダッシュボード公開 | ✅ |
-| 🔗 組織共通の Published Data Source への接続 | ✅ |
-| 📦 Packaged Workbook（.twbx）の共有 | ✅ |
-| 🔄 データの自動更新スケジュール設定（Extract Refresh） | ✅ |
-| 👥 閲覧者の権限管理（Viewer / Explorer） | ✅ |
-
-ライセンスを取得した後も **再インストールは不要** です。**Help ▸ Manage Product Keys...** を開き、Product Key を入力してください。
-
-![Help > Manage Product Keys メニュー](images/14-help-manage-product-keys.png)
-
-> [!TIP]
-> ライセンスや導入に関するご相談は、**Tableau Account Manager** または貴社担当の Tableau パートナーまでお問い合わせください。
->
-> 参考：[Tableau Desktop Feature Comparison](https://help.tableau.com/current/pro/desktop/en-us/desktop_comparison.htm)
-
----
-
 ## 🛠️ よくある問題と対処法
 
 | 問題 | 対処法 |
@@ -251,7 +227,6 @@ flowchart LR
 
 - ⬇️ [Tableau Desktop のダウンロード](https://www.tableau.com/products/desktop/download)
 - 📦 [Tableau Desktop 全バージョン（Release Notes）](https://www.tableau.com/support/releases)
-- 📋 [Tableau Desktop Feature Comparison](https://help.tableau.com/current/pro/desktop/en-us/desktop_comparison.htm)
 - 🔑 [Tableau ID / パスワード再設定](https://id.tableau.com/resetPassword)
 
 ---
