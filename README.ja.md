@@ -120,11 +120,11 @@ flowchart LR
 
 ## 4️⃣ アクティベーション方法の選択
 
-**Activate Tableau** 画面に 3 つの選択肢が表示されます。**一番上の選択肢** をクリックすると、Tableau アカウントでサインインしてすぐに利用を開始できます。
+**Activate Tableau** 画面に 3 つの選択肢が表示されます。**Use Tableau for free** をクリックすると、Tableau アカウントでサインインしてすぐに利用を開始できます。
 
 | 選択肢 | 使用するケース |
 |---|---|
-| 1️⃣ 一番上の選択肢 | ✅ **こちらを選択** — Tableau アカウントでサインインして利用開始 |
+| 1️⃣ Use Tableau for free | ✅ **こちらを選択** — Tableau アカウントでサインインして利用開始 |
 | 🔑 Activate with product key | ライセンスの Product Key をお持ちの場合 |
 | ☁️ Activate by signing in to a server | 組織で Tableau Server / Tableau Cloud のログインベースライセンスを利用している場合 |
 

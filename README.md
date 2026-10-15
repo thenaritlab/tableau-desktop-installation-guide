@@ -120,11 +120,11 @@ flowchart LR
 
 ## 4️⃣ เลือกวิธี Activate
 
-หน้า **Activate Tableau** จะมีให้เลือก 3 ทาง ให้คลิก **ตัวเลือกแรก (บนสุด)** เพื่อ Sign In ด้วย Tableau Account แล้วเริ่มใช้งานได้ทันที
+หน้า **Activate Tableau** จะมีให้เลือก 3 ทาง ให้คลิก **Use Tableau for free** เพื่อ Sign In ด้วย Tableau Account แล้วเริ่มใช้งานได้ทันที
 
 | ตัวเลือก | ใช้เมื่อ |
 |---|---|
-| 1️⃣ ตัวเลือกแรก (บนสุด) | ✅ **เลือกอันนี้** เพื่อ Sign In ด้วย Tableau Account และเริ่มใช้งาน |
+| 1️⃣ Use Tableau for free | ✅ **เลือกอันนี้** เพื่อ Sign In ด้วย Tableau Account และเริ่มใช้งาน |
 | 🔑 Activate with product key | มี Product Key ของ License แล้ว |
 | ☁️ Activate by signing in to a server | องค์กรใช้ Tableau Server / Tableau Cloud แบบ Login-based License |
 

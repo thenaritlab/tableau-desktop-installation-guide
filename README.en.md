@@ -118,11 +118,11 @@ When ✅ **Registration completed.** appears, click **Continue**.
 
 ## 4️⃣ Choose an Activation Method
 
-The **Activate Tableau** screen offers three options. Click the **first option (top)** to sign in with a Tableau Account and start using the product right away.
+The **Activate Tableau** screen offers three options. Click **Use Tableau for free** to sign in with a Tableau Account and start using the product right away.
 
 | Option | Use when |
 |---|---|
-| 1️⃣ First option (top) | ✅ **Choose this** to sign in with a Tableau Account and get started |
+| 1️⃣ Use Tableau for free | ✅ **Choose this** to sign in with a Tableau Account and get started |
 | 🔑 Activate with product key | You already have a license Product Key |
 | ☁️ Activate by signing in to a server | Your organization uses Tableau Server / Tableau Cloud with login-based licensing |
 
