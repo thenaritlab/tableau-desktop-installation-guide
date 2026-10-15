@@ -1,10 +1,15 @@
 # 📊 คู่มือติดตั้งและเริ่มต้นใช้งาน Tableau Desktop
 
+🌐 **ภาษา / Language / 言語:** 🇹🇭 **ไทย** | [🇺🇸 English](README.en.md) | [🇯🇵 日本語](README.ja.md)
+
 > ดาวน์โหลด ติดตั้ง สร้าง Tableau Account ด้วยอีเมล และ Activate Tableau Desktop เพื่อเริ่มวิเคราะห์ข้อมูลบนเครื่องของคุณ
 
 ![Tableau](https://img.shields.io/badge/Tableau-Desktop%202026.2-E97627?logo=tableau&logoColor=white)
 ![OS](https://img.shields.io/badge/OS-Windows%20%7C%20macOS-0078D6)
 ![Time](https://img.shields.io/badge/%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2-~15%20%E0%B8%99%E0%B8%B2%E0%B8%97%E0%B8%B5-6A1B9A)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-15%20Oct%202026-1565C0)
+
+🗓️ **อัปเดตล่าสุด:** 15 ตุลาคม 2026
 
 > [!NOTE]
 > **⚖️ ข้อจำกัดความรับผิดชอบ (Disclaimer)**
